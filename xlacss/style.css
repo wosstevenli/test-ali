@@ -1,0 +1,53 @@
+/* 
+学联安互动教育招商加盟页面
+2018-08-03
+author：steven
+company：javs
+*/
+.mainimg{
+    z-index: -1;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    float: right;
+    padding-top: 50px;
+}
+.logo img{
+    widows: 86px;
+    height: 55px;
+}
+.p1title{
+    z-index: 1;
+    width: 100%;
+    margin:20px 0 20px 0;
+}
+.p1titleH1{
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.p1titleH2{
+    color: #eb6319;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .p1titleH1{
+        font-size: 36px;
+    }
+    .p1titleH2{
+        font-size: 36px;
+    }
+}
