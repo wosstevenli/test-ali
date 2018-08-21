@@ -58,19 +58,22 @@ company：javs
     text-align: center;
 }
 
-.Page01 span {
-}
+.Page01 span {}
 
 .Page01Title {
-    color: #fff;
+    color: #333;
     font-size: 3em;
     font-weight: bold;
+    /* margin-top: -200px; */
+    top: 250px;
 }
 
 .TitleColor {
     color: #eb6319;
     padding-top: 50px;
 }
+
+/* 20180810PM */
 
 @media (min-width: 1200px) {}
 
@@ -79,10 +82,7 @@ company：javs
 @media (min-width: 768px) and (max-width: 992px) {}
 
 @media (max-width: 768px) {
-    /* .p1titleH1{
+    .Page01Title{
         font-size: 1.5em;
     }
-    .p1titleH2{
-        font-size: 1.5em;
-    } */
 }
