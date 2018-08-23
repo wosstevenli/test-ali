@@ -16,9 +16,25 @@
             document.execCommand("Copy"); // 执行浏览器复制命令
             alert("已复制好，可贴粘。");
         }
+
+        function fuzhi() {
+            var neir = document.getElementById("copycontents");
+            neir.select();
+            document.execCommand("Copy");
+            alert("OJBK");
+        }
+
+        // function fuzhi(){
+        //     var neirong = document.getElementById("contents");
+        //     neirong.select();
+        //     document.execCommand("Copy");
+        //     alert("OJBK COPY");
+        // }
     </script>
-    <textarea cols="20" rows="10" id="biao1">用户定义的代码区域</textarea>
+    <textarea cols="20" rows="10" id="biao1">这里是你需要点击复制的内容</textarea>
     <input type="button" onClick="copyUrl2()" value="点击复制代码" />
+    <p id="copycontents">这是干嘛的内容呢，湖北省武汉市</p>
+    <input type="button" onclick="fuzhi()" value="点我复制" />
 </body>
 
 </html>

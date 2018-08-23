@@ -840,8 +840,7 @@ footer.article-footer {
 
 .jumbotron {
     padding-top: 0px;
-    margin-top: 100px;
-    padding: 0;
+    /* padding: 0; */
     margin-bottom: 0;
 }
 
@@ -5914,7 +5913,7 @@ table.azul-tc-table td {
 }
 
 .bgimage.enabled-news-ticker {
-    /* background: url(/wp-content/themes/AzulSystems/images/hero-banner/hero-banner-bg.jpg) !important; */
+    background: url(../images/page02.jpg) !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
